@@ -51,8 +51,12 @@ describe ('Block', ()=> {
         it('sets the `timestamp`', () => {
             expect(minedBlock.timestamp).not.toEqual(undefined);
         });
+<<<<<<< HEAD
 
         it('creates a SHA-256 `hash` based on the proper inputs', () => {
+=======
+        it('creates a SHA-256 'hash' based on the proper inputs', () => {
+>>>>>>> parent of cf83d12... everything works. 20
             expect(minedBlock.hash)
                 .toEqual
                 (cryptoHash(
