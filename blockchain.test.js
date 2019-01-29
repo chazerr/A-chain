@@ -7,9 +7,12 @@ describe('Blockchain', () => {
     beforeEach(() => {
         blockchain = new Blockchain();
 <<<<<<< HEAD
+<<<<<<< HEAD
         newChain =  new Blockchain();
 
         originalChain = blockchain.chain;
+=======
+>>>>>>> parent of 6779bb3... hash fix
 =======
 >>>>>>> parent of 6779bb3... hash fix
     });
@@ -77,6 +80,7 @@ describe('Blockchain', () => {
 
 
     }); 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     describe('replaceChain()', () => {
@@ -147,6 +151,8 @@ describe('Blockchain', () => {
         });
     });
 
+=======
+>>>>>>> parent of 6779bb3... hash fix
 =======
 >>>>>>> parent of 6779bb3... hash fix
 });
