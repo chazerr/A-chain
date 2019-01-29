@@ -15,8 +15,7 @@ class Block{
     }
 
     static mineBlock({lastBlock, data}) {
-<<<<<<< HEAD
-<<<<<<< HEAD
+
         let hash, timestamp;
         //const timestamp = Date.now();
         const lastHash = lastBlock.hash;
@@ -30,17 +29,7 @@ class Block{
         }while (hash.substring(0,difficulty) !== '0'.repeat(difficulty));
 
         return new this({ timestamp,lastHash,data,difficulty,nonce, hash
-=======
-=======
->>>>>>> parent of 6779bb3... hash fix
-        return new this({
-            timestamp: Date.now(),
-            lastHash: lastBlock.hash,
-            data,
-<<<<<<< HEAD
->>>>>>> parent of 6779bb3... hash fix
-=======
->>>>>>> parent of 6779bb3... hash fix
+
         });
     }
 }
