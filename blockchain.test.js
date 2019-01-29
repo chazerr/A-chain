@@ -2,13 +2,16 @@ const Blockchain = require ('./blockchain');
 const Block = require ('./block');
 
 describe('Blockchain', () => {
-    let blockchain, newChain, originalChain;
+    let blockchain;
     
     beforeEach(() => {
         blockchain = new Blockchain();
+<<<<<<< HEAD
         newChain =  new Blockchain();
 
         originalChain = blockchain.chain;
+=======
+>>>>>>> parent of 6779bb3... hash fix
     });
 
     it('contains a `chain` Array instance',() => {
@@ -74,6 +77,7 @@ describe('Blockchain', () => {
 
 
     }); 
+<<<<<<< HEAD
 
     describe('replaceChain()', () => {
         let errorMock, logMock;
@@ -143,4 +147,6 @@ describe('Blockchain', () => {
         });
     });
 
+=======
+>>>>>>> parent of 6779bb3... hash fix
 });
